@@ -26,7 +26,6 @@
                                     <segments>
                                         <segment title="Name"/>
                                         <segment title="House"/>
-                                        <segment title="Actor/Actress"/>
                                     </segments>
                                 </segmentedControl>
                                 <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="YNP-m5-Tz8">

@@ -11,6 +11,9 @@
 		A21CFAA822FA5E6B00B4BC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21CFAA622FA5E6B00B4BC5C /* Main.storyboard */; };
 		A21CFAAA22FA5E6B00B4BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21CFAA922FA5E6B00B4BC5C /* Assets.xcassets */; };
 		A21CFAAD22FA5E6B00B4BC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21CFAAB22FA5E6B00B4BC5C /* LaunchScreen.storyboard */; };
+		A21CFAB522FA634C00B4BC5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CFAB422FA634C00B4BC5C /* Character.swift */; };
+		A21CFAB722FA671400B4BC5C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CFAB622FA671400B4BC5C /* APIController.swift */; };
+		A21CFAB922FA68A400B4BC5C /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CFAB822FA68A400B4BC5C /* ResultType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		A21CFAA922FA5E6B00B4BC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A21CFAAC22FA5E6B00B4BC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21CFAAE22FA5E6B00B4BC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21CFAB422FA634C00B4BC5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A21CFAB622FA671400B4BC5C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		A21CFAB822FA68A400B4BC5C /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				A21CFAA222FA5E6B00B4BC5C /* AppDelegate.swift */,
 				A21CFAA622FA5E6B00B4BC5C /* Main.storyboard */,
+				A21CFAB422FA634C00B4BC5C /* Character.swift */,
+				A21CFAB622FA671400B4BC5C /* APIController.swift */,
+				A21CFAB822FA68A400B4BC5C /* ResultType.swift */,
 				A21CFAA922FA5E6B00B4BC5C /* Assets.xcassets */,
 				A21CFAAB22FA5E6B00B4BC5C /* LaunchScreen.storyboard */,
 				A21CFAAE22FA5E6B00B4BC5C /* Info.plist */,
@@ -132,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21CFAB922FA68A400B4BC5C /* ResultType.swift in Sources */,
+				A21CFAB522FA634C00B4BC5C /* Character.swift in Sources */,
 				A21CFAA322FA5E6B00B4BC5C /* AppDelegate.swift in Sources */,
+				A21CFAB722FA671400B4BC5C /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
