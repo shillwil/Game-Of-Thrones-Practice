@@ -12,8 +12,6 @@ struct Character: Codable {
     let name: String
     let gender: String
     let culture: String
-    let born: String
-    let died: String
     let allegiances: [String]
     let playedBy: [String]
 }
