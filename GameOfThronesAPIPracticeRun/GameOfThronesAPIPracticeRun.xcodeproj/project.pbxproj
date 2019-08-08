@@ -15,6 +15,7 @@
 		A21CFAB722FA671400B4BC5C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CFAB622FA671400B4BC5C /* APIController.swift */; };
 		A21CFAB922FA68A400B4BC5C /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CFAB822FA68A400B4BC5C /* ResultType.swift */; };
 		A21CFABB22FA998D00B4BC5C /* ResultDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21CFABA22FA998D00B4BC5C /* ResultDetailViewController.swift */; };
+		A23B05C622FBEAFD0049336D /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B05C522FBEAFD0049336D /* ResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A21CFAB622FA671400B4BC5C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		A21CFAB822FA68A400B4BC5C /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		A21CFABA22FA998D00B4BC5C /* ResultDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailViewController.swift; sourceTree = "<group>"; };
+		A23B05C522FBEAFD0049336D /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				A21CFAA222FA5E6B00B4BC5C /* AppDelegate.swift */,
 				A21CFAA622FA5E6B00B4BC5C /* Main.storyboard */,
+				A23B05C522FBEAFD0049336D /* ResultsTableViewController.swift */,
 				A21CFABA22FA998D00B4BC5C /* ResultDetailViewController.swift */,
 				A21CFAB422FA634C00B4BC5C /* Character.swift */,
 				A21CFAB622FA671400B4BC5C /* APIController.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23B05C622FBEAFD0049336D /* ResultsTableViewController.swift in Sources */,
 				A21CFAB922FA68A400B4BC5C /* ResultType.swift in Sources */,
 				A21CFAB522FA634C00B4BC5C /* Character.swift in Sources */,
 				A21CFAA322FA5E6B00B4BC5C /* AppDelegate.swift in Sources */,

@@ -13,7 +13,7 @@
         <!--Character Search-->
         <scene sceneID="W3X-Ay-t62">
             <objects>
-                <tableViewController id="wKZ-fn-5Jr" sceneMemberID="viewController">
+                <tableViewController id="wKZ-fn-5Jr" customClass="ResultsTableViewController" customModule="GameOfThronesAPIPracticeRun" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BxZ-WM-4b2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,6 +81,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Character Search" id="ICg-nG-tdG"/>
+                    <connections>
+                        <outlet property="resultSegmentedControl" destination="ORq-VF-MMU" id="VHv-je-FxL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QhC-Ia-Qch" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,19 +148,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sV9-95-u2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75.362318840579718" y="188.83928571428569"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="jwx-fs-J2G">
-            <objects>
-                <viewController id="8kt-Ng-eZh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oOJ-FH-qd8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="l3F-W0-rdK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
         <!--View Controller-->
         <scene sceneID="pXF-Wv-6LZ">
@@ -270,6 +260,7 @@
                             <constraint firstItem="d60-lG-9vb" firstAttribute="leading" secondItem="0b0-zs-0oe" secondAttribute="leadingMargin" id="eyY-v2-jLp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d60-lG-9vb" secondAttribute="trailing" id="oSt-xS-r3G"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="MOw-EZ-xUj"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cbs-IU-rec" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -338,6 +329,7 @@
                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cSD-UR-iEr" secondAttribute="bottom" constant="20" id="v8D-8y-IG9"/>
                             <constraint firstItem="cSD-UR-iEr" firstAttribute="centerX" secondItem="YJ5-bB-uOU" secondAttribute="centerX" id="zAR-l7-SMo"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="oCO-MF-tW2"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3VJ-xc-LMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
